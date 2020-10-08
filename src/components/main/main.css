@@ -1,0 +1,52 @@
+.draftJsEmojiPlugin__image__192TI {
+    width: 100%;
+}
+
+.user-icon {
+    background-color: #dcdcdc;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #b0b0b0;
+    vertical-align: middle;
+    box-shadow: 0 0 12px #0000004e;
+    margin-right: 10px;
+}
+
+.wrapper-user {
+    display: flex;
+    align-items: center;
+}
+
+.joint-date {
+    font-size: 12px;
+}
+
+.img-header {
+    width: 100%;
+    display: block;
+    min-height: 600px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.08),
+            rgba(255, 255, 255, 0.08),
+            rgba(255, 255, 255, 0.08),
+            rgba(255, 255, 255, 0.733),
+            rgb(255, 255, 255)),
+        url("https://s3.us-west-2.amazonaws.com/machrus/doc_pictures/1601430916.png") center 38% / cover no-repeat;
+}
+
+.title-header {
+    font-weight: bolder;
+    color: #000;
+    line-height: 110%;
+    position: absolute;
+    top: 60%;
+    left: 90px;
+    font-size: 70px;
+    transform: translateY(-50%);
+}

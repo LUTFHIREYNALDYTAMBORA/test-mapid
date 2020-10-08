@@ -1,0 +1,123 @@
+.show-sideBar {
+    transition: 0.5s;
+    transition: 0.5s;
+    height: 80vh;
+    width: 300px;
+    background-color: #e4e4e4;
+    z-index: 2;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 1rem;
+    position: fixed;
+    top: 100px;
+    left: 2vw;
+    text-align: -webkit-center;
+}
+
+.close-sideBar {
+    position: fixed;
+    left: -300;
+    transition: 0.5s;
+}
+
+.closeBtn {
+    transition: .5s;
+    -webkit-transition: .5s;
+    content: "/f054";
+    margin-left: 2vw;
+    top: 80px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #2ca1fd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border: 1px solid #d8d8d8;
+    position: fixed;
+}
+
+.openBtn {
+    transition: .5s;
+    -webkit-transition: .5s;
+    font-family: "Font Awesome 5 Free";
+    content: "/f054";
+    /* size: 2px; */
+    position: fixed;
+    top: 80px;
+    z-index: 4;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #2ca1fd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border: 1px solid #d8d8d8;
+    margin-left: calc(((2vw + 285px) - 20px) / 2);
+}
+
+.blog {
+    margin-top: 40px;
+    text-align: center;
+    width: 30px;
+    height: 17px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2rem 2rem 2rem 2rem;
+    background-color: #fff;
+    color: #565656;
+    padding: 10px 24px 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.subMenu {
+    background-color: #2196f3;
+    color: #fff;
+    margin-top: 20px;
+    height: 21px;
+    width: 220px;
+    text-align: left;
+    display: block;
+    overflow-x: hidden;
+    border-radius: .5rem .5rem .5rem .5rem;
+    padding: 9px 14px 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+ul {
+    text-align: left;
+    padding: 0px 19px 3px;
+    list-style: none;
+}
+
+li {
+    padding: 10px 4px 8px 7px;
+    border-radius: .5rem .5rem .5rem .5rem;
+    height: max-content;
+    width: 236px;
+    background-color: #fff;
+    color: #565656;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    line-height: 12.5pt;
+    letter-spacing: .025em;
+
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+a {
+    display: block;
+}
